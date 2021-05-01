@@ -29,8 +29,13 @@ header nav .nav-right-section{
 }
 
 nav .nav-right-section a{
+    margin-left: 10px;
     margin-right: 10px;
     color: #000000;
+}
+
+nav .nav-right-section a:hover{
+    text-decoration: underline;
 }
 
 .nav-right-section .menu-icon{
@@ -42,13 +47,14 @@ nav .nav-right-section a{
     height: 24px;
     cursor: pointer;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav-right-section .perfil img{
     border-radius: 50%;
-    margin-left: 10px;
 }
 
-.nav-right-section img:hover{
-    color: #5f6368;
+.nav-right-section:hover .menu-icon:hover{
+    border-radius: 50%;
+    background-color: rgb(245, 245, 239);
 }
