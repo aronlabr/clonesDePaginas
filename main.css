@@ -58,3 +58,16 @@ nav .nav-right-section a:hover{
     border-radius: 50%;
     background-color: rgb(245, 245, 239);
 }
+
+
+/*Estilos de la seccion principal*/
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
