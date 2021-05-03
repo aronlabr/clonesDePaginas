@@ -147,3 +147,52 @@ main .main-buttons button:hover {
     box-shadow: 0 1px 1px 0 #20212447;
 
 }
+
+/*Estilos de la seccion principal*/
+
+footer {
+    width: 100%;
+    height: 92px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font-size: 13px;
+}
+
+footer .footer-country {
+    height: 17px;
+    padding: 15px 30px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer .footer-links {
+    height: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+footer .footer-links ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-links .footer-links-left {
+    justify-self: left;
+}
+
+.footer-links .footer-links-right {
+    justify-self: right;
+}
+
+footer .footer-links ul a {
+    padding: 15px;
+    color: #5f6368;
+}
+
+footer .footer-links ul a:hover{
+    text-decoration: underline;
+}
