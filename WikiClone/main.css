@@ -1,7 +1,10 @@
 html {
     font-size: 62.5%;
 }
-
+/*Revisar para apoyo
+https://github.com/hec-lopz/wikiClone
+https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/
+https://alxbaylon.github.io/clon-Wikipedia/*/
 body{
     margin:0;
     padding: 0;
@@ -14,7 +17,6 @@ header{
     height: 9.0rem;
     width: 100%;
     margin: 4.0rem auto 0.5rem;
-    font-family: 'Linux Libertine', serif;
 }
 
 header .header-title {
@@ -22,11 +24,22 @@ header .header-title {
     width: 100%;
     text-align: center;
     justify-content: center;
+    align-self:baseline;
+    font-family: 'Linux Libertine', serif;
 }
 header h1 {
     margin: 0;
+    font-size: 2.6rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    font-size: 3.5rem;
 }
 
 header h2 {
     margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
