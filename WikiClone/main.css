@@ -40,3 +40,15 @@ header h2 {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+main nav{
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
+    background-size: 200px 183px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .main-nav {
+    height: 32.5rem;
+    width: 55.0rem;
+    margin: 0 auto;
+}
