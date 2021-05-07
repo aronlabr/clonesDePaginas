@@ -4,42 +4,39 @@ html {
 /*Revisar para apoyo
 https://github.com/hec-lopz/wikiClone
 https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/
-https://alxbaylon.github.io/clon-Wikipedia/*/
+https://alxbaylon.github.io/clon-Wikipedia/
+*/
 body{
     margin:0;
     padding: 0;
-    --font-familiy-content: -apple-system, sans-serif;
+    font-family: -apple-system, sans-serif;
     font-size: 1.4rem;
     background-color: #fff;
 }
 
-header{
-    height: 9.0rem;
+header .header-title{
+    height: 7rem;
     width: 100%;
-    margin: 4.0rem auto 0.5rem;
+    padding: 3.8rem 0 2rem 0;
+    font-family: 'Linux Libertine', serif;
+    text-align: center;
+    align-self:center;
 }
 
-header .header-title {
-    height: inherit;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-self:baseline;
-    font-family: 'Linux Libertine', serif;
-}
 header h1 {
     margin: 0;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-weight: normal;
     text-transform: uppercase;
 }
 
 header h1 span {
-    font-size: 3.5rem;
+    font-size: 3.7rem;
 }
 
 header h2 {
-    margin: 0;
-    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 1.6rem;
     font-weight: 400;
 }
