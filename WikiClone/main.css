@@ -5,6 +5,7 @@ html {
 https://github.com/hec-lopz/wikiClone
 https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/
 https://alxbaylon.github.io/clon-Wikipedia/
+Media: https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg
 */
 body{
     box-sizing: border-box;
@@ -142,4 +143,33 @@ body a {
 .PO {
     top: 80%;
     left: 60%;
+}
+
+main .search-input {
+    width: 550px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.search-input .search-input__container {
+    width: 500px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid blueviolet;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.search-input__container input {
+    width: 320px;
+    height: auto;
+    border: none;
+    outline: none;
+    padding: .8rem 6.4rem .8rem 1.2rem;
+    font-size: 1.6rem;
 }
