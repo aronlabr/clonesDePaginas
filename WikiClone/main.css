@@ -5,7 +5,6 @@ html {
 https://github.com/hec-lopz/wikiClone
 https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/
 https://alxbaylon.github.io/clon-Wikipedia/
-Media: https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg
 */
 body{
     box-sizing: border-box;
@@ -41,6 +40,12 @@ header h2 {
     margin: 0;
     font-size: 1.6rem;
     font-weight: 400;
+}
+
+main .background-img {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+    background-repeat: no-repeat;
+    vertical-align: middle;
 }
 
 main nav{
@@ -82,7 +87,6 @@ body a {
     outline: 0;
     color: #36c;
     text-decoration: none;
-    touch-action: manipulation;
 }
 
 .nav-lang .nav-lang__box:hover {
@@ -146,30 +150,57 @@ body a {
 }
 
 main .search-input {
-    width: 550px;
+    width: 510px;
     height: 100px;
     margin: 0 auto;
-    border: 1px solid red;
     align-items: center;
 }
 
 .search-input .search-input__container {
-    width: 500px;
-    height: 45px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     text-align: center;
-    border: 1px solid blueviolet;
+    border: 1px solid #a2a9b1;
+    border-right: none;
     font-size: 1.6rem;
     line-height: 1.6;
 }
 
+
 .search-input__container input {
-    width: 320px;
-    height: auto;
     border: none;
     outline: none;
-    padding: .8rem 6.4rem .8rem 1.2rem;
+    padding: .7rem 6rem .8rem 1.2rem;
+    flex: 1 1;
     font-size: 1.6rem;
 }
+
+.search-input__container p {
+    text-transform: uppercase;
+    margin: 0.5rem 1.2rem 0.5rem 0;
+}
+
+.search-input__container .select-arrow-icon {
+    display: inline-block;
+    background-position: 0 -519px;
+    width: 12px;
+    height: 8px;
+}
+
+.search-input .search-input__container button {
+    padding: .8rem 1.6rem;
+    border: 1px solid #36c;
+    background-color: #36c;
+    border-radius: 0 2px 2px 0;
+}
+
+.search-input__container .search-button-icon {
+    display: block;
+    background-position: 0 -697px;
+    width: 22px;
+    height: 22px;
+}
+
+
+
