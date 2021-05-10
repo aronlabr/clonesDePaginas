@@ -151,7 +151,7 @@ body a {
 
 main .search-input {
     width: 510px;
-    height: 100px;
+    height: 200px;
     margin: 0 auto;
     align-items: center;
 }
@@ -179,6 +179,7 @@ main .search-input {
 .search-input__container p {
     text-transform: uppercase;
     margin: 0.5rem 1.2rem 0.5rem 0;
+    cursor: pointer;
 }
 
 .search-input__container .select-arrow-icon {
@@ -193,6 +194,7 @@ main .search-input {
     border: 1px solid #36c;
     background-color: #36c;
     border-radius: 0 2px 2px 0;
+    cursor: pointer;
 }
 
 .search-input__container .search-button-icon {
@@ -203,4 +205,57 @@ main .search-input {
 }
 
 
+main .lang-list {
+    width: inherit;
+    margin: 20px 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.lang-list .lang-list__button {
+    display: inline-flex;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: .6rem 1.2rem;
+    outline: 1.6rem solid #fff;
+    margin: 0 17px;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.lang-list .lang-list__button .svg-lang-icon {
+    display: block;
+    background-position: 0 -617px;
+    width: 22px;
+    height: 22px;
+}
+
+.lang-list .lang-list__button .svg-arrow-icon-blue {
+    display: block;
+    background-position: 0 -527px;
+    width: 14px;
+    height: 14px;
+}
+
+.lang-list__button span {
+    color: #36c;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0 .64rem; 
+}
+
+.lang-list hr {
+    flex: 1 1;
+    height: 0;
+}
+
+hr {
+    color: #a2a9b1;
+    border: 0.5px solid #a2a9b1;
+}
 
