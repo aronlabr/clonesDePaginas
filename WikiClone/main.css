@@ -151,8 +151,8 @@ body a {
 
 main .search-input {
     width: 510px;
-    height: 200px;
-    margin: 0 auto;
+    height: 100px;
+    margin: 0 auto 20px;
     align-items: center;
 }
 
@@ -206,10 +206,10 @@ main .search-input {
 
 
 main .lang-list {
-    width: inherit;
-    margin: 20px 0;
-    display: inline-flex;
+    width: 100%;
+    display: flex;
     align-items: center;
+    margin: 2rem 0;
 }
 
 
@@ -251,11 +251,13 @@ main .lang-list {
 
 .lang-list hr {
     flex: 1 1;
-    height: 0;
+
 }
 
 hr {
     color: #a2a9b1;
     border: 0.5px solid #a2a9b1;
+    height: 0;
+    max-width: 95%;
 }
 
