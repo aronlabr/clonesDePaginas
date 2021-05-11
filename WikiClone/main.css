@@ -262,9 +262,29 @@ hr {
 }
 
 
+footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1% 2%;
+}
+
 footer .svg-main-icon{
     display: block;
     background-position: 0 -87px;
-    width: 22px;
-    height: 22px;
+    width: 46px;
+    height: 39px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .link-list .link-list__item p a {
+    display: block;
+}
+
+footer .link-list .link-list__item {
+    display: grid;
+    grid-template-columns: 47px auto;
+    align-items: center;
 }
