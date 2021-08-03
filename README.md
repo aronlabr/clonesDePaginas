@@ -1,2 +1,2 @@
 # Página clone de Wikipedia Home Page
-![Wikipedia Home page](https://github.com/aronbrla/clonesDePaginas/blob/main/pictures/wikihomeclone.png)
+![Wikipedia Home page](../main/pictures/wikihomeclone.png)
